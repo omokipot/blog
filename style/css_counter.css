@@ -1,0 +1,9 @@
+/* testing */
+main{
+  counter-reset: number 0;
+}
+main > p::before{
+  counter-increment: number 1;
+  content: "¶" counter(number) "　";
+color:red;
+}

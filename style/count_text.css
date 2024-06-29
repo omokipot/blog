@@ -1,0 +1,18 @@
+textarea {
+width:100%;
+font-size:1.4rem;
+resize:none;
+}
+
+.full-count {
+border:solid 3px red;
+border-radius:16px;
+padding:4px;
+font-size:1.2rem;
+}
+
+.count {
+border:solid 3px pink;
+border-radius:16px;
+padding:4px;
+}

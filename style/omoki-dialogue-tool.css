@@ -1,0 +1,20 @@
+section ul {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 2em;
+}
+
+section ul li:nth-child(even)::before {
+    margin-left: -1em;
+    font-weight: bold;
+    color:blue;
+    content: 'A\0000a0\0000a0';
+}
+
+section ul li:nth-child(odd)::before {
+    margin-left: -1em;
+    font-weight: bold;
+    color:red;
+    content: '?\0000a0\0000a0';
+}
+

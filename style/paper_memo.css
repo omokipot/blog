@@ -1,0 +1,10 @@
+.OmokiDefault a.back-to-page {
+position:absolute;
+}
+
+@media screen and (min-width: 800px) {
+.OmokiDefault body {
+margin-left: 1rem;
+margin-right: 1rem;
+}
+}

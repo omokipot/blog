@@ -1,0 +1,13 @@
+#input31760,#result39911 {
+font-family: Consolas, Menlo, monospace;
+white-space: pre-wrap;
+font-size:1.2rem;
+width:100%;
+resize:none;
+}
+
+#result39911 {
+font-weight:bold;
+font-size:1.2rem;
+border-color:red;
+}

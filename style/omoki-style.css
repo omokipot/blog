@@ -1,0 +1,625 @@
+/* font を設定する。 */
+.OmokiDefault body {
+font-family: Arial, sans-serif;
+margin-top: 55px;
+}
+
+/* 一行の字数を設定する。 */
+.OmokiDefault p {
+width: 40;
+line-height: 2rem;
+}
+
+.OmokiDefault code {
+font-family: Consolas, Menlo, monospace;
+color:red;
+}
+
+.OmokiDefault img {
+max-width: 100%;
+height: auto;
+margin: 1px;
+margin-top: 3px;
+box-shadow: 3px 3px 8px 4px silver;
+}
+
+.OmokiDefault figure,iframe {
+max-width: 100%;
+}
+
+.OmokiDefault figcaption {
+margin-top: 5px;
+}
+
+.OmokiDefault video {
+max-width: 100%;
+}
+
+.OmokiDefault a {
+text-decoration: none
+}
+
+.OmokiDefault a.amz {
+background:yellow;
+border:solid 1px white;
+border-radius:16px;
+}
+
+/* .OmokiDefault a:visited { */
+/* color: darkslategrey; */
+/* } */
+
+.OmokiDefault a:hover:not(.active) {
+background-color: deeppink;
+color: white;
+}
+
+.OmokiDefault ul.index {
+list-style-type:none;
+display:flex;
+flex-wrap:wrap;
+}
+
+.OmokiDefault ul.index > li:before {
+content:"〈";
+}
+
+.OmokiDefault ul.index > li:after {
+content:"〉";
+}
+
+.OmokiDefault li {
+line-height: 1.8rem;
+}
+
+.OmokiDefault ul.side-by-side > li {
+list-style-type:none;
+display:inline-block;
+}
+
+.OmokiDefault .DefinitionBlock {
+border: solid 0.1rem gray;
+border-radius: 30px;
+border-left: solid 0.3rem gray;
+box-shadow: 3px 3px 3px #eee;
+padding: 8pt;
+overflow: auto;
+margin: 1.2rem;
+position: relative;
+overflow: visible;
+}
+
+.OmokiDefault .ExplanationBlock {
+border-left: solid 4px gray;
+padding-left: 20px;
+}
+
+.OmokiDefault .ExplanationString {
+margin-left: 2.5rem;
+}
+
+.OmokiDefault .keyword-block {
+border: solid 0.1rem gray;
+padding-left: 6pt;
+padding-right: 6pt;
+border-radius: 30px;
+overflow: auto;
+margin: 1.2rem;
+position: relative;
+overflow: visible;
+}
+
+.OmokiDefault .q {
+font-size: 1.2rem;
+border: solid 0.2rem gray;
+background-color: #fdf5e6;
+padding-left: 6pt;
+padding-right: 6pt;
+display: flex;
+width: 40;
+line-height: 2rem;
+}
+
+.OmokiDefault .q:before {
+content: "Q: ";
+color: blue;
+}
+
+.OmokiDefault .a {
+margin-left: 2rem;
+}
+
+dl {
+border-left:solid 2px silver;
+padding:8px;
+}
+
+dt {
+color: red;
+border-top:solid thin silver;
+padding-top:5px;
+}
+
+dd {
+margin-bottom:16px;
+line-height:1.6;
+}
+
+.OmokiDefault .BorderTopLine {
+border-top: dotted 2px gray;
+}
+
+.OmokiDefault .CodeHighlight {
+color:red;
+}
+
+.OmokiDefault .string-highlight {
+color:red;
+}
+
+.OmokiDefault .string-highlight2 {
+color: #BF9224;
+}
+
+.OmokiDefault .CenteredObject {
+text-align: center;
+}
+
+.OmokiDefault .CenteredTable {
+margin-left: auto;
+margin-right: auto;
+}
+
+.OmokiDefault cite {
+font-weight: bold;
+}
+
+.OmokiDefault .inline-function {
+color: red;
+}
+
+.OmokiDefault .inline-function:before {
+content: "(";
+}
+
+.OmokiDefault .inline-function:after {
+content: ")";
+}
+
+.OmokiDefault .keyboard-sequence:before {
+content: "【";
+}
+
+.OmokiDefault .keyboard-sequence:after {
+content: "】";
+}
+
+.OmokiDefault .book:before {
+content: "《";
+}
+
+.OmokiDefault .book:after {
+content: "》";
+}
+
+.OmokiDefault .article:before {
+content: "〈";
+}
+
+.OmokiDefault .article:after {
+content: "〉";
+}
+
+.OmokiDefault table {
+border-collapse: collapse;
+margin: 1rem;
+box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+min-width: 400px;
+}
+
+.OmokiDefault table thead tr {
+border: solid 0.3rem gray;
+text-align: center;
+}
+
+.OmokiDefault table th, table td {
+border:solid thin gray;
+padding: 12px 15px;
+}
+
+.OmokiDefault tbody tr {
+border-bottom: 1px solid #dddddd;
+}
+
+.OmokiDefault tbody tr:nth-of-type(even) {
+background-color: #f3f3f3;
+}
+
+.OmokiDefault caption {
+margin-bottom: 0.5rem;
+}
+
+.OmokiDefault table caption:before {
+content: "表　";
+}
+
+.OmokiDefault .footref{
+font-size: medium;
+}
+
+.OmokiDefault .footdef {
+margin-bottom: 0.5rem;
+}
+
+.OmokiDefault .underline{
+text-decoration: unset;
+background: linear-gradient(transparent 70%, orangered)
+}
+
+.OmokiDefault rt {
+display: block;
+-webkit-user-select: none;
+user-select: none;
+}
+
+.OmokiDefault rp {
+display: none;
+}
+
+.OmokiDefault ruby > rp,rt {
+  letter-spacing: 2px;
+}
+
+.OmokiDefault kbd {
+background-color: deeppink;
+border-radius: 5px;
+border: 1px solid #b4b4b4;
+box-shadow: 3px 3px 3px #eee;
+color: #fff;
+display: inline-block;
+font-size: .85rem;
+font-weight: 700;
+line-height: 1;
+padding: 2px 4px;
+white-space: nowrap;
+font-family: Consolas, Menlo, monospace;
+}
+
+.OmokiDefault pre {
+font-family: Consolas, Menlo, monospace;
+border: 1px solid #a52a2a;
+border-left: 4px solid #a52a2a;
+box-shadow: 3px 3px 3px #eee;
+padding: 6pt;
+overflow: auto;
+margin: 1.2rem;
+white-space: pre-wrap;
+position: relative;
+overflow: visible;
+}
+
+.OmokiDefault pre:before {
+display: inline;
+position: absolute;
+background-color: white;
+top: -10px;
+right: 10px;
+padding: 3px;
+border: 1px solid black;
+}
+
+.OmokiDefault pre.html:before {
+content: "HTML";
+}
+
+.OmokiDefault pre.powershell:before {
+content: "PS";
+}
+
+pre.emacs-lisp:before {
+content: "Emacs Lisp";
+text-shadow: 0 0 black;
+}
+
+pre.sh:before {
+content: "Shell";
+text-shadow: 0 0 black;
+}
+
+.OmokiDefault pre.bash:before {
+content: "Bash";
+}
+
+pre.sparql:before {
+content: "SPARQL";
+text-shadow: 0 0 black;
+}
+
+.OmokiDefault pre.js:before {
+content: "JS";
+}
+
+.OmokiDefault pre.R:before {
+content: "R";
+}
+
+.OmokiDefault .comment {
+color: #a52a2a;
+font-style: italic;
+}
+
+.OmokiDefault .keyword {
+color: #0000ff;
+}
+
+.OmokiDefault .function-name {
+color: #ff00ff;
+}
+
+.OmokiDefault .negation-char {
+text-decoration: underline;
+}
+
+.OmokiDefault .string {
+color: #dc143c;
+}
+
+.OmokiDefault .variable-name {
+color: #008000;
+}
+
+.OmokiDefault .omoki-js-var-name {
+color: #2e8b57;
+}
+
+.OmokiDefault .constant {
+color: #800000;
+font-weight: bold;
+}
+
+.OmokiDefault .xah-elisp-user-variable {
+color: #008000;
+}
+
+.OmokiDefault .xah-elisp-function-param {
+color: #800000;
+font-weight: bold;
+}
+
+.OmokiDefault .css-selector {
+color: #0000ff;
+}
+
+.OmokiDefault .css-property {
+color: #ff00ff;
+}
+
+.OmokiDefault .css-proprietary-property {
+color: #008000;
+}
+
+.OmokiDefault .org-level-1 {
+color: #0000ff;
+}
+
+.OmokiDefault .org-level-2 {
+color: #0000ff;
+}
+
+.OmokiDefault .org-level-3 {
+color: #0000ff;
+}
+
+.OmokiDefault .org-level-4 {
+color: #0000ff;
+}
+
+.OmokiDefault .org-level-5 {
+color: #0000ff;
+}
+
+.OmokiDefault .org-level-6 {
+color: #0000ff;
+}
+
+.OmokiDefault .org-tag {
+color: hsl(333,39%,41%);
+}
+
+.OmokiDefault .org-todo {
+color: red;
+}
+
+.OmokiDefault .builtin {
+color: #0000ff;
+}
+
+.OmokiDefault blockquote {
+border-left: 4px solid blue;
+box-shadow: 3px 3px 3px #eee;
+padding: 8pt;
+overflow: auto;
+margin: 1.2rem;
+white-space: pre-wrap;
+position: relative;
+overflow: visible;
+line-height: 2rem;
+}
+
+.OmokiDefault blockquote:before {
+display: inline;
+position: absolute;
+background-color: white;
+padding-left: 3px;
+padding-right: 3px;
+content: "引用";
+color: brown;
+text-decoration: underline;
+}
+
+.OmokiDefault .from-source {
+border: 1px solid gray;
+padding: 0.2rem;
+}
+
+.OmokiDefault a.back-to-page {
+border: solid 1px black;
+border-radius: 16px;
+position: fixed;
+top: 10px;
+left: 5px;
+padding: 8px 4px;
+background:blue;
+color:white;
+box-shadow:3px 3px 4px 2px grey;
+font-weight:bold;
+}
+
+.OmokiDefault .panel-ZBN6H {
+border: 1px solid gray;
+width: 200px;
+border-radius: 20px;
+margin: 0.3rem;
+padding: 0.3rem;
+font-size: 1.2rem;
+}
+
+.OmokiDefault .left-panel {
+border: 2px solid gray;
+width: 200px;
+border-radius: 20px;
+margin: 0.3rem;
+margin-top: 45px;
+padding: 0.3rem;
+font-size: 1.2rem;
+}
+
+.OmokiDefault div.left-panel > ul > li {
+list-style-type: none;
+border-top: 1px solid gray;
+margin-left: -30px;
+}
+
+.OmokiDefault div.panel-ZBN6H > ul > li {
+list-style-type: none;
+border-top: 1px solid gray;
+margin-left: -30px;
+}
+
+@media screen and (min-width: 800px) {
+.OmokiDefault body {
+margin-left: 230px;
+}
+
+.OmokiDefault .left-panel {
+position: absolute;
+top: 20px;
+left: 0;
+}
+
+}
+
+@media screen and (max-width: 800px) {
+.OmokiDefault h1{
+font-size:1.8rem}
+
+.OmokiDefault h2{
+font-size:1.6rem}
+
+.OmokiDefault h3{
+font-size:1.4rem}
+
+.OmokiDefault h4{
+font-size:1.35rem}
+
+.OmokiDefault h5{
+font-size:1.3rem}
+
+.OmokiDefault p{
+font-size:1.0rem;
+width: 40;
+line-height: 2rem;
+}
+
+.OmokiDefault li {
+line-height: 1.8rem;
+}
+
+.OmokiDefault pre {
+padding: 6pt;
+/* margin:2.8em 2rem; */
+}
+
+.OmokiDefault .q:before {
+margin-top: 0.2rem;
+}
+
+}
+
+/* --------------------------------------------------------------- */
+.OmokiExample pre {
+border: 0.1rem solid #a52a2a;
+border-left: 0.3rem solid #a52a2a;
+box-shadow: 0.5rem 0.5rem 0.5rem #eee;
+padding: 8pt;
+font-size: large;
+overflow: auto;
+margin: 1.2rem;
+white-space: pre-wrap;
+}
+
+.OmokiExample .comment {
+color: #a52a2a;
+font-style: italic;
+}
+
+.OmokiExample pre .keyword {
+color: #0000ff;
+}
+
+.OmokiExample pre .function-name {
+color: #ff00ff;
+}
+
+.OmokiExample pre .string {
+color: #dc143c;
+}
+
+.OmokiExample pre .variable-name {
+color: #008000;
+}
+
+.OmokiExample .DefinitionBlock {
+border: solid 0.1rem gray;
+border-radius: 30px;
+border-left: solid 0.3rem gray;
+box-shadow: 0.5rem 0.5rem 0.5rem #eee;
+padding: 8pt;
+overflow: auto;
+margin: 1.2rem;
+position: relative;
+overflow: visible;
+}
+
+.OmokiExample pre:before {
+display: inline;
+position: absolute;
+background-color: white;
+top: -10px;
+right: 10px;
+padding: 3px;
+border: 1px solid black;
+}
+
+.OmokiExample pre.html:before {
+content: "HTML";
+}
+
+.OmokiExample pre.emacs-lisp:before {
+content: "Emacs Lisp";
+text-shadow: 0 0 black;
+}
+
+.OmokiExample .CodeHighlight {
+color:red;
+}

@@ -1,0 +1,75 @@
+/* ①　一番シンプルなデザイン */
+/* table { */
+/* border-collapse: collapse; */
+/* margin: 1rem; */
+/* box-shadow: 0 0 20px rgba(0, 0, 0, 0.15); */
+/* min-width: 400px; */
+/* } */
+
+/* table thead tr { */
+/* border: solid 0.3rem gray; */
+/* text-align: center; */
+/* } */
+
+/* table th, table td { */
+/* border:solid thin gray; */
+/* padding: 12px 15px; */
+/* } */
+
+/* tbody tr { */
+/* border-bottom: 1px solid #dddddd; */
+/* } */
+
+/* tbody tr:nth-of-type(even) { */
+/* background-color: #f3f3f3; */
+/* } */
+
+/* section { */
+/* border:solid 1px gray; */
+/* border-radius:16px; */
+/* padding:5px 10px; */
+/* margin:30px; */
+/* } */
+
+/* ②　カードに近づけたデザイン */
+section.card {
+display:inline-block;
+border:solid 3px #cc0066;
+box-shadow:1px 1px 1px 1px #1a000d;
+padding:5px 10px;
+margin:30px;
+}
+
+section.close {
+width:25%;
+}
+
+section.open {
+width:auto;
+}
+
+section.card:hover {
+background-color:#e6e6ff;
+transition: background 0.5s;
+}
+
+.card details > summary {
+cursor: pointer;
+list-style: none;
+}
+
+.card h2 {
+border-bottom:solid 2px #ff9933;
+}
+
+.card ul > li {
+border-bottom:solid 0.5px gray;
+list-style: none;
+}
+
+.card span.page {
+background:#ff9933;
+border:solid 1px white;
+border-radius:10px;
+padding:0.1px 4px;
+}
